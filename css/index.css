@@ -161,3 +161,12 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.home .navigator {
+  background-color: #372002;
+}
+.home .mainHome {
+  background-color: #F7EFAE;
+}
+.home .footerHome {
+  background-color: #231C04;
+}
