@@ -161,21 +161,40 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.home header .navigator {
+  display: flex;
+  justify-content: space-between;
+  background-color: #88756E;
+  color: whitesmoke;
+  padding: 1% 3% 1% 3%;
+}
+.home header .navigator .navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.home header .navigator .navLinks .link_nav {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.2em;
+}
 .home .footerHome {
   color: whitesmoke;
   padding: 1% 3% 3% 3%;
 }
-.home header .navigator {
-  background-color: #88756E;
-  color: whitesmoke;
-  padding: 1% 3% 3% 3%;
-}
-.home header .navigator a {
-  text-decoration: none;
-  color: whitesmoke;
-}
 .home .mainHome {
   background-color: #F7EFAE;
+  padding: 3% 1% 0% 1%;
+}
+.home .mainHome .cta h3 {
+  font-size: 2rem;
+  color: gray;
+  margin-bottom: 2%;
+}
+.home .mainHome .cta .btn {
+  display: flex;
+  justify-content: center;
 }
 .home .footerHome {
   background-color: #231C04;
