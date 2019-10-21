@@ -192,9 +192,33 @@ p {
   color: gray;
   margin-bottom: 2%;
 }
-.home .mainHome .cta .btn {
+.home .mainHome .cta .boton {
   display: flex;
   justify-content: center;
+}
+.home .mainHome .cta .boton .btn {
+  text-align: center;
+  color: whitesmoke;
+  background: #88756E;
+  padding: 0px 0px;
+  border-radius: 12px;
+  width: 30%;
+  font-size: 2.2rem;
+  margin-bottom: 3%;
+  border: 3px solid #D6CBCF;
+}
+.home .mainHome .cta .boton .btn:hover {
+  color: #231C04;
+  background: #D6CBCF;
+  border: 3px solid #231C04;
+  cursor: pointer;
+}
+.home .mainHome .cta .boton .btn a {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  padding: 30px 40px;
 }
 .home .footerHome {
   background-color: #231C04;

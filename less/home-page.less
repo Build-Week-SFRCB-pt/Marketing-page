@@ -6,7 +6,7 @@
     background-color: @vanilla;
     padding: 3% 1% 0% 1%;
     .cta {
-       
+
       h1 {
         
       }
@@ -17,9 +17,20 @@
         margin-bottom: 2%;
       }
 
-      .btn {
+      .boton {
         display: flex;
         justify-content: center;
+        .btn {
+          .button(@smoke, @milk-chocolate);
+          border: 3px solid @choco-vanilla;
+          a {
+            display: block;
+            text-decoration: none;
+            height: 100%;
+            width: 100%;
+            padding: 30px 40px;
+          }
+        }
       }
 
     }
