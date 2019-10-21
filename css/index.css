@@ -135,6 +135,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
+  background: #231C04;
 }
 h1,
 h2,
@@ -166,7 +167,9 @@ p {
   justify-content: space-between;
   background-color: #88756E;
   color: whitesmoke;
-  padding: 1% 3% 1% 3%;
+  padding: 2% 3% 2% 3%;
+  border-radius: 5px;
+  margin-bottom: 0.5%;
 }
 .home header .navigator .navLinks {
   display: flex;
@@ -177,15 +180,54 @@ p {
 .home header .navigator .navLinks .link_nav {
   text-decoration: none;
   color: whitesmoke;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 .home .footerHome {
   color: whitesmoke;
   padding: 1% 3% 3% 3%;
+  background-color: #372002;
+  border-radius: 5px;
+}
+.home .footerHome .footTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+.home .footerHome .footTop .footerLinks {
+  display: flex;
+  flex-direction: column;
+}
+.home .footerHome .footTop .footerLinks a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.4rem;
+}
+.home .footerHome .copyright {
+  display: flex;
+  justify-content: space-between;
+}
+.home .footerHome .copyright p {
+  display: flex;
+  align-self: flex-end;
+  font-size: 1.1rem;
+}
+.home .footerHome .copyright .socialImgs {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+.home .footerHome .copyright .socialImgs img {
+  height: 20px;
+  width: 20px;
 }
 .home .mainHome {
   background-color: #F7EFAE;
   padding: 3% 1% 0% 1%;
+  border-radius: 5px;
+}
+.home .mainHome .cta {
+  border-bottom: 1px solid #D6CBCF;
+  margin-bottom: 1%;
 }
 .home .mainHome .cta h3 {
   font-size: 2rem;
@@ -216,10 +258,52 @@ p {
 .home .mainHome .cta .boton .btn a {
   display: block;
   text-decoration: none;
+  color: whitesmoke;
   height: 100%;
   width: 100%;
-  padding: 30px 40px;
+  padding: 25px 0px;
 }
-.home .footerHome {
-  background-color: #231C04;
+.home .mainHome .cta .boton .btn a:hover {
+  color: #231C04;
+}
+.home .mainHome .reasons {
+  margin-bottom: 3%;
+}
+.home .mainHome .reasons h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+}
+.home .mainHome .reasons .reason-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.home .mainHome .reasons .reason-boxes .reason {
+  width: 30%;
+}
+.home .mainHome .reasons .reason-boxes .reason h3 {
+  margin-bottom: 3%;
+}
+.home .mainHome .banner {
+  margin-bottom: 3%;
+  box-shadow: 1px 10px 6px 0px #bbb155;
+}
+.home .mainHome .banner img {
+  width: 100%;
+  border-radius: 5px;
+}
+.home .mainHome .quotes {
+  padding-bottom: 3%;
+  margin-bottom: 0.5%;
+}
+.home .mainHome .quotes h2 {
+  font-size: 2.7rem;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.home .mainHome .quotes .quote-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.home .mainHome .quotes .quote-boxes .quote {
+  width: 30%;
 }
