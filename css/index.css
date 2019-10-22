@@ -307,9 +307,21 @@ p {
 .home .mainHome .quotes .quote-boxes .quote {
   width: 30%;
 }
-header h1 {
-  text-align: center;
+.main-home {
   padding: 3.5%;
   background-color: #88756E;
   border-radius: 5px;
+  display: flex;
+}
+.main-home h1 {
+  width: 100%;
+}
+.main-home .menu-items {
+  font-size: 1.5em;
+  color: black;
+  width: 30%;
+}
+.main-home .menu-items a {
+  padding-left: 4%;
+  padding-right: 4%;
 }
