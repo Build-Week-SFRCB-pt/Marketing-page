@@ -8,24 +8,27 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container home">
 
     <header>
       <nav class="navigator">
         <h1>Cookbook</h1>
-        <a href="#" class="link_nav">Sign Up</a>
-        <a href="/about.html" class="link_nav">About</a>
-        <a href="#" class="link_nav">Log In</a>
+        <div class="navLinks">
+          <a href="#" class="link_nav">Sign Up</a>
+          <a href="about.html" class="link_nav">About</a>
+          <a href="#" class="link_nav">Log In</a>
+          </div>
       </nav>
     </header>
 
-    <main>
+    <main class="mainHome">
       <section class="cta">
-        <h1>Cookbook, Recipees made simple!</h1>
+        <h1>Cookbook, recipees made simple!</h1>
         <h3>Modern recipee log, all to yourself... or for the world!</h3>
-
-        <div class="btn">
-          <button type="login">Log In</button>
+        <div class="boton">
+          <div class="btn">
+            <a href="#">Log In</a>
+          </div>
         </div>
       </section>
 
@@ -33,17 +36,17 @@
         <h2>Why people choose Cookbook</h2>
 
         <div class=reason-boxes>
-          <div class="reason1">
+          <div class="reason">
             <h3>Reason 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
-          <div class="reason2">
+          <div class="reason">
             <h3>Reason 2</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
-          <div class="reason3">
+          <div class="reason">
             <h3>Reason 3</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
@@ -51,44 +54,51 @@
       </section>
 
       <section class="banner">
-        <img class="foodBanner" src="#" alt="Large Image of Food">
+        <img class="foodBanner" src="img/foodBanner.jpg" alt="Large Image of Food">
       </section>
 
       <section class="quotes">
         <h2>Our Members Love Us!</h2>
 
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+        <div class="quote-boxes">
+          <div class="quote">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+          </div>
 
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+          <div class="quote">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+          </div>
 
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="quote">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+          </div>
         </div>
       </section>
 
     </main>
 
-    <footer>
-      <h2>Cookbook</h2>
-      <h4>Cookbook, Recipees made simple</h4>
-      <h5>Modern recipee log, all to yourself... or for the world!</h5>
+    <footer class="footerHome">
+      <div class="footTop">
+        <div class="footerLeft">
+          <h2>Cookbook</h2>
+          <h4>Cookbook, Recipees made simple</h4>
+          <h5>Modern recipee log, all to yourself... or for the world!</h5>
+        </div>
 
-      <div class="footerLinks">
-        <a href="/about.html" class="link_foot">About</a>
-        <a href="#" class="link_foot">Contact</a>
-        <a href="#" class="link_foot">Blog</a>
-        <a href="#" class="link_foot">Privacy Policy</a>
+        <div class="footerLinks">
+          <a href="about.html" class="link_foot">About</a>
+          <a href="#" class="link_foot">Contact</a>
+          <a href="#" class="link_foot">Blog</a>
+          <a href="#" class="link_foot">Privacy Policy</a>
+        </div>
       </div>
       <div class="copyright">
         <p>©Copyright 2019 Lambda Designs. All Rights Reserved</p>
-        <img class="social" src="#" alt="Facebook Logo">
-        <img class="social" src="#" alt="Instagram Logo">
-        <img class="social" src="#" alt="Pinterest Logo">
-        <img class="social" src="#" alt="Twitter Logo">
+        <div class=socialImgs>
+          <a href="#"><img class="social" src="img/f_logo_RGB-White_58.png" alt="Facebook Logo"></a>
+          <a href="#"><img class="social" src="img/badgeRGB-white.png" alt="Pinterest Logo"></a>
+          <a href="#"><img class="social" src="img/Twitter_Social_Icon_Circle_White.png" alt="Twitter Logo"></a>
+        </div>
       </div>
     </footer>
 

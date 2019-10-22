@@ -1,0 +1,309 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #231C04;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.home header .navigator {
+  display: flex;
+  justify-content: space-between;
+  background-color: #88756E;
+  color: whitesmoke;
+  padding: 2% 3% 2% 3%;
+  border-radius: 5px;
+  margin-bottom: 0.5%;
+}
+.home header .navigator .navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.home header .navigator .navLinks .link_nav {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.4em;
+}
+.home .footerHome {
+  color: whitesmoke;
+  padding: 1% 3% 3% 3%;
+  background-color: #372002;
+  border-radius: 5px;
+}
+.home .footerHome .footTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+.home .footerHome .footTop .footerLinks {
+  display: flex;
+  flex-direction: column;
+}
+.home .footerHome .footTop .footerLinks a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.4rem;
+}
+.home .footerHome .copyright {
+  display: flex;
+  justify-content: space-between;
+}
+.home .footerHome .copyright p {
+  display: flex;
+  align-self: flex-end;
+  font-size: 1.1rem;
+}
+.home .footerHome .copyright .socialImgs {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+.home .footerHome .copyright .socialImgs img {
+  height: 20px;
+  width: 20px;
+}
+.home .mainHome {
+  background-color: #F7EFAE;
+  padding: 3% 1% 0% 1%;
+  border-radius: 5px;
+}
+.home .mainHome .cta {
+  border-bottom: 1px solid #D6CBCF;
+  margin-bottom: 1%;
+}
+.home .mainHome .cta h3 {
+  font-size: 2rem;
+  color: gray;
+  margin-bottom: 2%;
+}
+.home .mainHome .cta .boton {
+  display: flex;
+  justify-content: center;
+}
+.home .mainHome .cta .boton .btn {
+  text-align: center;
+  color: whitesmoke;
+  background: #88756E;
+  padding: 0px 0px;
+  border-radius: 12px;
+  width: 30%;
+  font-size: 2.2rem;
+  margin-bottom: 3%;
+  border: 3px solid #D6CBCF;
+}
+.home .mainHome .cta .boton .btn:hover {
+  color: #231C04;
+  background: #D6CBCF;
+  border: 3px solid #231C04;
+  cursor: pointer;
+}
+.home .mainHome .cta .boton .btn a {
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  height: 100%;
+  width: 100%;
+  padding: 25px 0px;
+}
+.home .mainHome .cta .boton .btn a:hover {
+  color: #231C04;
+}
+.home .mainHome .reasons {
+  margin-bottom: 3%;
+}
+.home .mainHome .reasons h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+}
+.home .mainHome .reasons .reason-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.home .mainHome .reasons .reason-boxes .reason {
+  width: 30%;
+}
+.home .mainHome .reasons .reason-boxes .reason h3 {
+  margin-bottom: 3%;
+}
+.home .mainHome .banner {
+  margin-bottom: 3%;
+  box-shadow: 1px 10px 6px 0px #bbb155;
+}
+.home .mainHome .banner img {
+  width: 100%;
+  border-radius: 5px;
+}
+.home .mainHome .quotes {
+  padding-bottom: 3%;
+  margin-bottom: 0.5%;
+}
+.home .mainHome .quotes h2 {
+  font-size: 2.7rem;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.home .mainHome .quotes .quote-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.home .mainHome .quotes .quote-boxes .quote {
+  width: 30%;
+}

@@ -1,0 +1,19 @@
+// Mixins Here
+.button (@color, @background) {
+  text-align: center;
+  color: @color;
+  background: @background;
+  padding: 0px 0px;
+  border-radius: 12px;
+  width: 30%;
+  font-size: 2.2rem;
+  margin-bottom: 3%;
+
+  &:hover {
+    color: @dark-chocolate;
+    background: @choco-vanilla;
+    border: 3px solid @dark-chocolate;
+    cursor: pointer;
+  }
+
+}
