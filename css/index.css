@@ -307,3 +307,9 @@ p {
 .home .mainHome .quotes .quote-boxes .quote {
   width: 30%;
 }
+header h1 {
+  text-align: center;
+  padding: 3.5%;
+  background-color: #88756E;
+  border-radius: 5px;
+}
