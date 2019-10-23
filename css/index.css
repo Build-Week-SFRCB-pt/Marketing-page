@@ -336,12 +336,18 @@ p {
 }
 .main-section .intro-top {
   display: flex;
-  padding-left: 14%;
   margin-bottom: 7%;
+  padding-left: 3.5%;
+}
+.main-section .intro-top p {
+  text-align: center;
 }
 .main-section .intro-bottom {
   display: flex;
-  padding-left: 7%;
+  padding-left: 3.5%;
+}
+.main-section .intro-bottom p {
+  text-align: center;
 }
 * {
   box-sizing: border-box;
