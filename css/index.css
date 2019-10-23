@@ -258,10 +258,22 @@ p {
 .home .mainHome .cta h1 {
   font-size: 3.5vmin;
 }
+@media (max-width:500px) {
+  .home .mainHome .cta h1 {
+    font-size: 3.9vmin;
+    text-align: center;
+  }
+}
 .home .mainHome .cta h3 {
   font-size: 2.5vmin;
   color: gray;
   margin-bottom: 2%;
+}
+@media (max-width:500px) {
+  .home .mainHome .cta h3 {
+    font-size: 2.9vmin;
+    text-align: center;
+  }
 }
 .home .mainHome .cta .boton {
   display: flex;
@@ -273,10 +285,10 @@ p {
   background: #88756E;
   padding: 0px 0px;
   border-radius: 12px;
+  border: 3px solid #D6CBCF;
   width: 30%;
   font-size: 2.2rem;
   margin-bottom: 3%;
-  border: 3px solid #D6CBCF;
 }
 .home .mainHome .cta .boton .btn:hover {
   color: #231C04;
@@ -295,12 +307,23 @@ p {
 .home .mainHome .cta .boton .btn a:hover {
   color: #231C04;
 }
+@media (max-width:500px) {
+  .home .mainHome .cta .boton .btn {
+    width: 95%;
+  }
+}
 .home .mainHome .reasons {
   margin-bottom: 3%;
 }
 .home .mainHome .reasons h2 {
-  font-size: 2.5rem;
+  font-size: 2.8vmin;
   margin-bottom: 3%;
+}
+@media (max-width:500px) {
+  .home .mainHome .reasons h2 {
+    font-size: 3.5vmin;
+    text-align: center;
+  }
 }
 .home .mainHome .reasons .reason-boxes {
   display: flex;
@@ -310,7 +333,26 @@ p {
   width: 30%;
 }
 .home .mainHome .reasons .reason-boxes .reason h3 {
+  font-size: 2.3vmin;
   margin-bottom: 3%;
+}
+@media (max-width:500px) {
+  .home .mainHome .reasons .reason-boxes .reason h3 {
+    font-size: 3.3vmin;
+  }
+}
+.home .mainHome .reasons .reason-boxes .reason p {
+  font-size: 1.7vmin;
+}
+@media (max-width:800px) {
+  .home .mainHome .reasons .reason-boxes .reason p {
+    font-size: 2vmin;
+  }
+}
+@media (max-width:500px) {
+  .home .mainHome .reasons .reason-boxes .reason p {
+    font-size: 2.5vmin;
+  }
 }
 .home .mainHome .banner {
   margin-bottom: 3%;
@@ -325,9 +367,14 @@ p {
   margin-bottom: 0.5%;
 }
 .home .mainHome .quotes h2 {
-  font-size: 2.7rem;
+  font-size: 2.8vmin;
   margin-bottom: 3%;
   text-align: center;
+}
+@media (max-width:500px) {
+  .home .mainHome .quotes h2 {
+    font-size: 3.5vmin;
+  }
 }
 .home .mainHome .quotes .quote-boxes {
   display: flex;
@@ -335,6 +382,19 @@ p {
 }
 .home .mainHome .quotes .quote-boxes .quote {
   width: 30%;
+}
+.home .mainHome .quotes .quote-boxes .quote p {
+  font-size: 1.7vmin;
+}
+@media (max-width:800px) {
+  .home .mainHome .quotes .quote-boxes .quote p {
+    font-size: 2vmin;
+  }
+}
+@media (max-width:500px) {
+  .home .mainHome .quotes .quote-boxes .quote p {
+    font-size: 2.5vmin;
+  }
 }
 .main-section {
   background-color: #F7EFAE;

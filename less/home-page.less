@@ -12,12 +12,24 @@
 
       h1 {
         font-size: 3.5vmin;
+
+        @media @phone {
+          font-size: 3.9vmin;
+          text-align: center;
+        }
+
       }
 
       h3 {
         font-size: 2.5vmin;
         color: gray;
         margin-bottom: 2%;
+
+        @media @phone {
+          font-size: 2.9vmin;
+          text-align: center;
+        }
+
       }
 
       .boton {
@@ -25,7 +37,7 @@
         justify-content: center;
         .btn {
           .button(@smoke, @milk-chocolate);
-          border: 3px solid @choco-vanilla;
+          
           a {
             display: block;
             text-decoration: none; 
@@ -37,6 +49,10 @@
               color: @dark-chocolate;
             }
           }
+
+          @media @phone {
+            width: 95%;
+          }
         }
       }
     }//End cta
@@ -45,8 +61,14 @@
       margin-bottom: 3%;
 
       h2 {
-        font-size: 2.5rem;
+        font-size: 2.8vmin;
         margin-bottom: 3%;        
+
+        @media @phone {
+          font-size: 3.5vmin;
+          text-align: center;
+        }
+
       }
 
       .reason-boxes {
@@ -57,7 +79,28 @@
           width: 30%;
 
           h3 {
+            font-size: 2.3vmin;
             margin-bottom: 3%;
+
+            @media @phone {
+              font-size: 3.3vmin;
+            }
+
+          }
+
+          p {
+            font-size: 1.7vmin;
+
+            @media @tablet {
+              font-size: 2.0vmin;
+            }
+
+            @media @phone {
+              font-size: 2.5vmin;
+            }
+
+            
+
           }
 
         }
@@ -81,9 +124,13 @@
       margin-bottom: 0.5%;
       
       h2 {
-        font-size: 2.7rem;
+        font-size: 2.8vmin;
         margin-bottom: 3%;
         text-align: center;
+
+        @media @phone {
+          font-size: 3.5vmin;
+        }
       }
 
       .quote-boxes {
@@ -92,6 +139,22 @@
 
         .quote {
           width: 30%;
+
+          p {
+            font-size: 1.7vmin;
+
+            @media @tablet {
+              font-size: 2.0vmin;
+            }
+
+            @media @phone {
+              font-size: 2.5vmin;
+            }
+
+            
+
+          }
+
         }
 
       }
