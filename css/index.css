@@ -182,6 +182,26 @@ p {
   color: whitesmoke;
   font-size: 1.4em;
 }
+.main-home {
+  display: flex;
+  justify-content: space-between;
+  background-color: #88756E;
+  color: whitesmoke;
+  padding: 2% 3% 2% 3%;
+  border-radius: 5px;
+  margin-bottom: 0.5%;
+}
+.main-home .menu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.main-home .menu-items .link_nav {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.4em;
+}
 .home .footerHome {
   color: whitesmoke;
   padding: 1% 3% 3% 3%;
@@ -306,26 +326,6 @@ p {
 }
 .home .mainHome .quotes .quote-boxes .quote {
   width: 30%;
-}
-.main-home {
-  padding: 3.5%;
-  background-color: #88756E;
-  border-radius: 5px;
-  display: flex;
-}
-.main-home h1 {
-  width: 100%;
-  color: whitesmoke;
-}
-.main-home .menu-items {
-  font-size: 1.5em;
-  color: black;
-  width: 30%;
-}
-.main-home .menu-items a {
-  padding-left: 4%;
-  padding-right: 4%;
-  color: whitesmoke;
 }
 .main-section {
   background-color: #F7EFAE;
