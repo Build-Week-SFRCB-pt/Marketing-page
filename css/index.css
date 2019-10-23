@@ -171,6 +171,9 @@ p {
   border-radius: 5px;
   margin-bottom: 0.5%;
 }
+.home header .navigator h1 {
+  font-size: 3.5vmin;
+}
 .home header .navigator .navLinks {
   display: flex;
   justify-content: space-between;
@@ -190,6 +193,9 @@ p {
   padding: 2% 3% 2% 3%;
   border-radius: 5px;
   margin-bottom: 0.5%;
+}
+.main-home h1 {
+  font-size: 3.5vmin;
 }
 .main-home .menu-items {
   display: flex;
@@ -249,8 +255,11 @@ p {
   border-bottom: 1px solid #D6CBCF;
   margin-bottom: 1%;
 }
+.home .mainHome .cta h1 {
+  font-size: 3.5vmin;
+}
 .home .mainHome .cta h3 {
-  font-size: 2rem;
+  font-size: 2.5vmin;
   color: gray;
   margin-bottom: 2%;
 }
