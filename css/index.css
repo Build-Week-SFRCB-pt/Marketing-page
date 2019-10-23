@@ -329,7 +329,8 @@ p {
 }
 .main-section {
   background-color: #F7EFAE;
-  margin-top: 1%;
+  padding: 3% 1% 0% 1%;
+  border-radius: 5px;
 }
 .main-section img {
   border-radius: 50%;
