@@ -382,9 +382,12 @@ p {
 }
 .home .mainHome .quotes .quote-boxes .quote {
   width: 30%;
+  box-shadow: 0px 4px 4px -3px #bbb155;
+  padding: 1%;
 }
 .home .mainHome .quotes .quote-boxes .quote p {
   font-size: 1.7vmin;
+  text-align: center;
 }
 @media (max-width:800px) {
   .home .mainHome .quotes .quote-boxes .quote p {
