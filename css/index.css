@@ -346,7 +346,7 @@ p {
 }
 @media (max-width:800px) {
   .home .mainHome .reasons .reason-boxes .reason p {
-    font-size: 2vmin;
+    font-size: 1.4rem;
   }
 }
 @media (max-width:500px) {
@@ -388,7 +388,7 @@ p {
 }
 @media (max-width:800px) {
   .home .mainHome .quotes .quote-boxes .quote p {
-    font-size: 2vmin;
+    font-size: 1.4rem;
   }
 }
 @media (max-width:500px) {
