@@ -194,14 +194,38 @@ p {
   border-radius: 5px;
   margin-bottom: 0.5%;
 }
+@media (max-width:500px) {
+  .main-home {
+    flex-direction: column;
+    font-size: 2.5vmin;
+  }
+}
 .main-home h1 {
   font-size: 3.5vmin;
+}
+@media (max-width:500px) {
+  .main-home h1 {
+    font-size: 5vmin;
+    color: rgba(221, 173, 16, 0.678);
+    text-align: center;
+    padding-bottom: 5%;
+  }
 }
 .main-home .menu-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 30%;
+}
+@media (max-width:500px) {
+  .main-home .menu-items {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .main-home .menu-items a {
+    padding-bottom: 7%;
+  }
 }
 .main-home .menu-items .link_nav {
   text-decoration: none;
@@ -432,11 +456,46 @@ p {
 }
 .main-section img {
   border-radius: 50%;
+  width: 95%;
+  height: 280px;
+}
+@media (max-width:800px) {
+  .main-section img:hover {
+    width: 100%;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+@media (max-width:500px) {
+  .main-section img {
+    border-radius: 50%;
+    height: 200px;
+    border: 5px solid #a58228;
+  }
 }
 .main-section .intro-top {
   display: flex;
-  margin-bottom: 7%;
   padding-left: 3.5%;
+  margin-bottom: 7%;
+}
+@media (max-width:800px) {
+  .main-section .intro-top {
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    font-size: 1.4rem;
+    padding-left: 22%;
+  }
+}
+@media (max-width:500px) {
+  .main-section .intro-top {
+    flex-direction: column;
+    text-align: center;
+    width: 85%;
+    padding-left: 20%;
+    font-size: 2.5vmin;
+  }
 }
 .main-section .intro-top p {
   text-align: center;
@@ -444,6 +503,25 @@ p {
 .main-section .intro-bottom {
   display: flex;
   padding-left: 3.5%;
+  margin-bottom: 5%;
+}
+@media (max-width:800px) {
+  .main-section .intro-bottom {
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    font-size: 1.4rem;
+    padding-left: 22%;
+  }
+}
+@media (max-width:500px) {
+  .main-section .intro-bottom {
+    flex-direction: column;
+    text-align: center;
+    width: 85%;
+    padding-left: 20%;
+    font-size: 3.5vmin;
+  }
 }
 .main-section .intro-bottom p {
   text-align: center;
