@@ -448,8 +448,8 @@ p {
 }
 .main-section .intro-top {
   display: flex;
-  margin-bottom: 7%;
   padding-left: 3.5%;
+  margin-bottom: 7%;
 }
 @media (max-width:800px) {
   .main-section .intro-top {
@@ -475,6 +475,7 @@ p {
 .main-section .intro-bottom {
   display: flex;
   padding-left: 3.5%;
+  margin-bottom: 5%;
 }
 @media (max-width:800px) {
   .main-section .intro-bottom {
