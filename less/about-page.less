@@ -45,7 +45,14 @@
         border-radius: 50%;
         width: auto;
         height: 280px;
-      
+
+        @media @tablet {
+            &:hover {
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                transform: scale(0.8);
+              } 
+        }
 
         @media @phone {
             border-radius: 50%;
@@ -59,16 +66,26 @@
        margin-bottom: 7%;
        padding-left: 3.5%;
 
+       @media @tablet {
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        font-size: 1.4rem;
+        padding-left: 22%;
+
+       }
+
        @media @phone {
            flex-direction: column;
            text-align: center;
            width: 85%;
            padding-left: 20%;
+           font-size: 2.5vmin;
        }
      
        
        p {
-           text-align: center; 
+           text-align: center;
        }
     }
 
@@ -76,11 +93,20 @@
         display: flex;
         padding-left: 3.5%;
 
+        @media @tablet {
+            flex-direction: column;
+            text-align: center;
+            width: 80%;
+            font-size: 1.4rem;
+            padding-left: 22%;
+           }
+
         @media @phone {
             flex-direction: column;
             text-align: center;
             width: 85%;
            padding-left: 20%;
+           font-size: 3.5vmin;
         }
 
         p {
