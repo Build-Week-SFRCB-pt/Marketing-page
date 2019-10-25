@@ -258,16 +258,26 @@ p {
 .home .mainHome .cta h1 {
   font-size: 3.5vmin;
 }
+@media (max-width:800px) {
+  .home .mainHome .cta h1 {
+    font-size: 3.6vmin;
+  }
+}
 @media (max-width:500px) {
   .home .mainHome .cta h1 {
-    font-size: 3.9vmin;
+    font-size: 4.9vmin;
     text-align: center;
   }
 }
 .home .mainHome .cta h3 {
   font-size: 2.5vmin;
   color: gray;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
+}
+@media (max-width:800px) {
+  .home .mainHome .cta h3 {
+    font-size: 2.9vmin;
+  }
 }
 @media (max-width:500px) {
   .home .mainHome .cta h3 {
@@ -307,6 +317,11 @@ p {
 .home .mainHome .cta .boton .btn a:hover {
   color: #231C04;
 }
+@media (max-width:800px) {
+  .home .mainHome .cta .boton .btn {
+    width: 40%;
+  }
+}
 @media (max-width:500px) {
   .home .mainHome .cta .boton .btn {
     width: 95%;
@@ -319,9 +334,14 @@ p {
   font-size: 2.8vmin;
   margin-bottom: 3%;
 }
+@media (max-width:800px) {
+  .home .mainHome .reasons h2 {
+    font-size: 2.4rem;
+  }
+}
 @media (max-width:500px) {
   .home .mainHome .reasons h2 {
-    font-size: 3.5vmin;
+    font-size: 3.9vmin;
     text-align: center;
   }
 }
@@ -336,9 +356,14 @@ p {
   font-size: 2.3vmin;
   margin-bottom: 3%;
 }
+@media (max-width:800px) {
+  .home .mainHome .reasons .reason-boxes .reason h3 {
+    font-size: 2rem;
+  }
+}
 @media (max-width:500px) {
   .home .mainHome .reasons .reason-boxes .reason h3 {
-    font-size: 3.3vmin;
+    font-size: 3.5vmin;
   }
 }
 .home .mainHome .reasons .reason-boxes .reason p {
